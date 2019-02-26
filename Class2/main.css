@@ -1,0 +1,15 @@
+.container {
+    background-color: dodgerblue;
+}
+
+.row {
+    background-color: cornsilk;
+}
+
+.col-md-6:first-child {
+    background-color: aquamarine;
+}
+
+.col-md-6:last-child {
+    background-color: salmon;
+}
