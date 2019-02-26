@@ -10,44 +10,111 @@
 
     <link rel="stylesheet" href="main.css">
 
-    <title>Bootstrap Layout 1</title>
+    <title>Current Events – 26 February 2019</title>
   </head>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Class 2</a>
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
+  <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">News Articles 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Green Book</a>
+          <a href="#">Bohemian Rhapsody</a>
+          <a href="#">Niccolo Machiavelli</a>
+          <a href="#">Pope Francis</a>
+          <a href="#">Don Shirley</a>
+          <a href="#">Hachimoji DNA</a>
+          <a href="#">Fire in Dhaka</a>
+          <a href="#">Syria</a>
+          <a href="#">Venezuela</a>
+        </div>
+      </div> 
+    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <p>This is column 1.</p>
-              </div>
-          <div class="col-12 col-md-6">
-            <p>This is column 2.</p>
-          <div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Current Events – 26 Feb 2019</h1>
+        <p class="lead">Topics in the News</p>
+      </div>
+    </div>
+
+    <div class="card-columns">
+      <div class="card">
+        <img src="img/Green_Book.png" class="card-img-top" alt="Green Book">
+        <div class="card-body">
+          <h5 class="card-title">Green Book</h5>
+          <p class="card-text">Green Book wins Best Picture at Academy Awards</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Bohemian_Rhapsody.png" class="card-img-top" alt="Bohemian Rhapsody">
+        <div class="card-body">
+          <h5 class="card-title">Bohemian Rhapsody</h5>
+          <p class="card-text">Bohemian Rhapsody wins in four categories at the Academy Awards.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>"It is better to be feared than loved, if you cannot be both."</p>
+          <footer class="blockquote-footer text-white">
+            <small>
+              Niccolo Machiavelli <cite title="https://en.wikipedia.org/wiki/Niccolò_Machiavelli">Niccolò Machiavelli</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img src="img/Pope_Francis.jpg" class="card-img-top" alt="Pope Francis">
+        <div class="card-body">
+          <h5 class="card-title">Pope Francis</h5>
+          <p class="card-text">Pope Francis concludes a summit in Vatican City that discussed sexual abuse by Catholic Church clergy.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+          <p>You never win with violence. You only win when you maintain your dignity.</p>
+          <footer class="blockquote-footer text-white">
+            <small>
+              Don Shirley in <cite title="https://www.ranker.com/list/best-green-book-quotes/movie-and-tv-quotes">Green Book</cite>
+            </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img src="img/ADN_animation.gif" class="card-img-top" alt="Hachimoji DNA">
+        <div class="card-body">
+          <h5 class="card-title">Hachimoji DNA</h5>
+          <p class="card-text">Scientists synthesize hachimoji DNA using four new nucleobases in addition to the four in natural DNA.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/dhaka.png" class="card-img-top" alt="Fire in Dhaka">
+        <div class="card-body">
+          <h5 class="card-title">Fire in Dhaka</h5>
+          <p class="card-text">A fire in an historic district of Dhaka, Bangladesh, kills at least 80 people.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Baghuz_Fawqani.png" class="card-img-top" alt="Clashes in Syria">
+        <div class="card-body">
+          <h5 class="card-title">Update on Syrian Civil War</h5>
+          <p class="card-text">Ongoing clashes in Al-Baghuz Fawqani, 14 February 2019.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Crisis_in_Bolivarian_Venezuela.png" class="card-img-top" alt="Crisis in Venezuela">
+        <div class="card-body">
+          <h5 class="card-title">Crisis in Venezuela</h5>
+          <p class="card-text">Ongoing 2019 Venezuelan presidential crisis.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
         </div>
       </div>
     
