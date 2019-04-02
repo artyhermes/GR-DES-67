@@ -15,3 +15,7 @@ for(var i = 0; i < navlinks.length; i++) {
       toggleNav();
   });
 }
+
+$("#centralModalSuccess").on('show.bs.modal', function(){
+  alert("Welcome to Green Tapestry Worldwide");
+});
