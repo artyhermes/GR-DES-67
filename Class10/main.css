@@ -1,0 +1,84 @@
+@-webkit-keyframes mymove {
+  50% {opacity: 0;}
+}
+@keyframes mymove {
+  50% {opacity: 0;}
+}
+
+@-webkit-keyframes mytext {
+  50% {word-spacing: 50px;}
+}
+
+@keyframes mytext {
+  50% {word-spacing: 50px;}
+}
+
+@-webkit-keyframes myflex {
+  50% {-webkit-flex: 3;}
+}
+
+@keyframes myflex {
+  50% {flex: 3;}
+}
+
+body {
+  margin: 70px;
+  color: white;
+  background-color: grey;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+#main {
+  margin-left: 400px;
+}
+
+#myDIV {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 300px;
+  height: 150px;
+  background-color: rgb(255, 0, 212);
+  border: 1px solid black;
+  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite;
+}
+
+#DIV2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 300px;
+  height: 310px;
+  background-color: khaki;
+  border: 1px solid black;
+}
+
+#main {
+  width: 270px;
+  height: 300px;
+  border: 1px solid black;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
+
+#main div {
+  -webkit-flex: 1;  /* Safari 6.1+ */
+  -ms-flex: 1;  /* IE 10 */  
+  flex: 1;
+}
+
+#myBlueDiv {
+  -webkit-animation: myflex 5s infinite; /* Chrome, Safari, Opera */
+  animation: myflex 5s infinite;
+}
+
+#myText {
+  font-family: monospace;
+  -webkit-animation: mytext 5s infinite; /* Chrome, Safari, Opera */
+  animation: mytext 5s infinite;
+}
