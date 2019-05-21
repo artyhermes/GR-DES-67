@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>HTML multimedia</title>
+</head>
+
+<body>
+    <svg width="400" height="400">
+        <circle cx="200" cy="200" r="100" fill="red"></circle>
+        <circle cx="200" cy="200" r="50" fill="blue"></circle>
+
+    </svg>
+
+    <picture>
+        <source srcset="https://html5box.com/html5lightbox/images/mountain2.jpg" media="(min-width: 800px)"
+            type="image/jpg">
+        <source srcset="https://www.fnordware.com/superpng/pnggrad16rgb.png" media="(min-width: 600px)"
+            type="image/png">
+        <img src="https://static01.nyt.com/images/2019/04/08/science/08BLACKHOLE-PREVIEW2/08BLACKHOLE-PREVIEW2-articleLarge.jpg"
+            alt="Default image">
+    </picture>
+
+    <video controls loop="loop" muted poster="https://www.fnordware.com/superpng/pnggrad16rgb.png">
+        <source src="big_buck_bunny_480p_stereo.ogg" type="video/ogg">
+        <source src="sample.mp4" type="video/mp4">
+        <source src="sample.webm" type="video/webm">
+    </video>
+
+    <audio controls>
+        <source src="sample.mp3" type="audio/mp3">
+        <source src="sample.ogg" type="audio/ogg">
+        <source src="sample.wav" type="audio/wav">
+    </audio>
+
+    <iframe src="https://en.wikipedia.org/wiki/Bokar_Tulku_Rinpoche"></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208918.02858140046!2d135.57844795847114!3d35.09811524589408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a8d6cd3cc3f1%3A0xc0961d366bbb1d3d!2sKyoto%2C+Japan!5e0!3m2!1sen!2sus!4v1558322679204!5m2!1sen!2sus"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://youtu.be/6zvIxD4FUTA" allowfullscreen></iframe>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+        <img src="img/Pope_Francis.jpg" class="img-fluid" alt="Responsive image">
+</body>
+
+</body>
+
+</html>
