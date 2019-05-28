@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #d7e4bd;
+}
+
+#blog {
+  top: 80px;
+  background-color: #d7e4bd;
+}
+
+#projects {
+  top: 140px;
+  background-color: #d7e4bd;
+}
+
+#contact {
+  top: 200px;
+  background-color: #d7e4bd;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("img/bikemain.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
